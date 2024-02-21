@@ -5,7 +5,7 @@
     }
   },
   "routes": [
-    { "source": "/api", "destination": "/index.php", "permanent": true }
+    { "source": "/api/index.php", "destination": "/index.php", "permanent": true }
     { "src": "page.php", "dest": "/api/page.php" }
   ]
 }
