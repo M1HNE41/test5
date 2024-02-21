@@ -3,9 +3,4 @@
     "api/**/*.php": {
       "runtime": "vercel-php@0.6.1"
     }
-  },
-  "routes": [
-    { "source": "/api/index.php", "destination": "/index.php", "permanent": true }
-    { "src": "page.php", "dest": "/api/page.php" }
-  ]
-}
+  }
